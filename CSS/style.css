@@ -1,0 +1,29 @@
+ body {
+      background-color: #f8f9fa;
+    }
+
+    .card {
+      border-radius: 12px;
+      padding: 2rem;
+    }
+
+    .btn-primary {
+      font-weight: 600;
+    }
+
+    .password-feedback {
+      font-size: 0.9rem;
+      margin-top: 5px;
+    }
+
+    .password-feedback.valid {
+      color: green;
+    }
+
+    .password-feedback.invalid {
+      color: red;
+    }
+
+    .alert {
+      display: none;
+    }
